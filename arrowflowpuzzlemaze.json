@@ -3,5 +3,6 @@
   "ver":"1.0.4",
  "clickAdValue":"3",
  "arrowsAdValue":"10",
- "Adinterval":"15"
+ "Adinterval":"15",
+ "adCount":"20"
 }
