@@ -2,8 +2,8 @@
  "message": "ok",
   "ver":"1.0.5",
  "clickAdvalue":"3",
- "arrowsAdvalue":"4",
- "Adinterval":"15",
+ "arrowsAdvalue":"6",
+ "Adinterval":"25",
  "forcedAdlevel":"18",
  "adCount":"20"
 }
