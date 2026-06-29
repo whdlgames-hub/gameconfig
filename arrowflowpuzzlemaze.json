@@ -1,38 +1,46 @@
 {
-  "message": "ok",
-  "ver": "1.0.6",
-
-  "clickAdValue": "3",
-  "arrowsAdValue": "10",
-  "Adinterval": "15",
-  "forcedAdlevel": "18",
-  "adCount": "20",
-
-  "InterstitialAd": 45,
-  "userOpsEnabled": true,
-  "minOpportunitiesForClassification": 10,
-
-  "adStrategyByWillingness": {
-    "HIGH": {
-      "clickAdValue": 2,
-      "arrowsAdValue": 8,
-      "Adinterval": 8,
-      "forcedAdlevel": 15,
-      "InterstitialAd": 35
-    },
-    "MEDIUM": {
-      "clickAdValue": 3,
-      "arrowsAdValue": 10,
-      "Adinterval": 10,
-      "forcedAdlevel": 18,
-      "InterstitialAd": 45
-    },
-    "LOW": {
-      "clickAdValue": 5,
-      "arrowsAdValue": 12,
-      "Adinterval": 15,
-      "forcedAdlevel": 25,
-      "InterstitialAd": 60
-    }
-  }
+	"message": "ok",
+	"ver": "1.0.6",
+	"clickAdValue": "3",
+	"arrowsAdValue": "10",
+	"Adinterval": "15",
+	"forcedAdlevel": "18",
+	"adCount": "20",
+	"InterstitialAd": 45,
+	"userOpsEnabled": true,
+	"minOpportunitiesForClassification": 10,
+	"userDifficultyMultipliers": 
+	{
+		"HIGH": 1.2,
+		"MEDIUM": 1.0,
+		"LOW": 0.7,
+		"UNKNOWN": 1.0
+	},
+	"adStrategyByWillingness": 
+	{
+		"HIGH": 
+		{
+			"clickAdValue": 2,
+			"arrowsAdValue": 8,
+			"Adinterval": 8,
+			"forcedAdlevel": 15,
+			"InterstitialAd": 35
+		},
+		"MEDIUM":
+		{
+			"clickAdValue": 3,
+			"arrowsAdValue": 10,
+			"Adinterval": 10,
+			"forcedAdlevel": 18,
+			"InterstitialAd": 45
+		}, 
+		"LOW":
+		{
+			"clickAdValue": 5,
+			"arrowsAdValue": 12,
+			"Adinterval": 15,
+			"forcedAdlevel": 25,
+			"InterstitialAd": 60
+		}
+	}
 }
