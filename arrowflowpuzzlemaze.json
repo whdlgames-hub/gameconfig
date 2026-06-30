@@ -8,7 +8,7 @@
 	"adCount": "20",
 	"InterstitialAd": 45,
 	"userOpsEnabled": true,
-	"minOpportunitiesForClassification": 3,
+	"minOpportunitiesForClassification": 5,
 	"userDifficultyMultipliers": 
 	{
 		"HIGH": 1.2,
