@@ -1,46 +1,10 @@
 {
-	"message": "ok",
-	"ver": "1.0.6",
-	"clickAdValue": "3",
-	"arrowsAdValue": "10",
-	"Adinterval": "15",
-	"forcedAdlevel": "18",
-	"adCount": "20",
-	"InterstitialAd": 45,
-	"userOpsEnabled": true,
-	"minOpportunitiesForClassification": 5,
-	"userDifficultyMultipliers": 
-	{
-		"HIGH": 1.2,
-		"MEDIUM": 1.0,
-		"LOW": 0.7,
-		"UNKNOWN": 1.0
-	},
-	"adStrategyByWillingness": 
-	{
-		"HIGH": 
-		{
-			"clickAdValue": 2,
-			"arrowsAdValue": 8,
-			"Adinterval": 8,
-			"forcedAdlevel": 15,
-			"InterstitialAd": 35
-		},
-		"MEDIUM":
-		{
-			"clickAdValue": 3,
-			"arrowsAdValue": 10,
-			"Adinterval": 10,
-			"forcedAdlevel": 18,
-			"InterstitialAd": 45
-		}, 
-		"LOW":
-		{
-			"clickAdValue": 5,
-			"arrowsAdValue": 12,
-			"Adinterval": 15,
-			"forcedAdlevel": 25,
-			"InterstitialAd": 60
-		}
-	}
+  "message": "ok",
+  "ver": "1.0.6",
+  "clickAdValue": "3",
+  "arrowsAdValue": "10",
+  "Adinterval": "15",
+  "forcedAdlevel": "18",
+  "adCount": "20",
+  "encrypted": "9e6c9b84f7f71744131080812b52b618:cJryxj5+GrpB5zeQ/pTyX677E7WdigVY3yQDJkcjUhWRYaMnUcFfDl247cZQcNZ34c0xOshVMI2lwYgA/6mYJNRzMjAwvcUefjwAmGaKgvv8rKRub0LweFwIpGv+/91Ypx2JjrGQKT45VtQKh4rv39qWbn4vfo1oga4SD2gp5OBykXhJO4ru6VZpSf6kwgJ8DmZyZ0gDWoPyZnZseg5v52oFxW/YAK7KnEE/2SxtrnriGj0/mDOCJI3OPgXMHWvW78tRwXbu+qgiA1yLWk1Tng7DLp7+uVs6+rnXXaNqf4OIQRAoiFNNgJrJjWCuCASIbSy4CtXUQxBXYGeBnqAsptTL53OtGStCtMpOnS+GoG11VaXq82YvG3lVUDco4bJmc0DJxoMlitKkgZMOVo5JwnTNUyW4H22yfr2UCdPj6wlRCq3l2g4PdV7DdqnOC7qt2zUMsTKxpWpfU8yv+yJkAuWpq0GWBcy8mXWg2ubIFgC0oEeGE2SwSUEYOhxVas7ta9zDH5puPYjyxRjEXC0yFCxMX5RBJT+qfjUhHr5qZNR4lATdiVWewg4Kc7wW5XBQhhp2dncwJ7Z84FaMSlOrOT269sE/ScF8Poa93OIid6bX7Ljf12DofrmcH8NQzBOCjYscgAz1ajfTYDHTvef/0TzHHW5QMag5uAJe+ucF43G2LEeFWzaBF1XCHsHFzPoD2MkDkDrt0wiiAq5azJgxwUk8YdJckrrjw1zwiaQmfnFDgcFdhko6ClG1h1/nupJGozuDpsxttJmwZozbXd5m2KWu2dkSLNqmhZ7JftNUrDo="
 }
