@@ -1,26 +1,20 @@
-# gameconfig Worker 多配置中心
+# gameconfig Cloudflare Pages
 
-## 支持的访问方式
+这是 Cloudflare Pages 静态配置托管版本。
 
-部署后可以访问：
+## 访问方式
 
-```text
-https://你的worker地址/arrowflowpuzzlemaze.json
-https://你的worker地址/fizztilesblast.json
-https://你的worker地址/urlconfig.json
-```
-
-也支持：
+部署成功后可以访问：
 
 ```text
-https://你的worker地址/config/arrowflowpuzzlemaze
-https://你的worker地址/config/fizztilesblast
-https://你的worker地址/config/urlconfig
+https://你的项目名.pages.dev/arrowflowpuzzlemaze.json
+https://你的项目名.pages.dev/fizztilesblast.json
+https://你的项目名.pages.dev/urlconfig.json
 ```
 
-## 注意
+## 使用方式
 
-你的仓库根目录需要保留这些 JSON 文件：
+保留你原来的 JSON 文件：
 
 ```text
 arrowflowpuzzlemaze.json
@@ -28,16 +22,28 @@ fizztilesblast.json
 urlconfig.json
 ```
 
-## 新增配置文件
+然后把本项目里的 `_headers` 上传到仓库根目录。
 
-如果以后新增 `zuma.json`，需要在 `src/index.js` 顶部增加：
+## Cloudflare Pages 配置
 
-```js
-import zuma from "../zuma.json" assert { type: "json" };
+Framework preset：None
+
+Build command：留空
+
+Build output directory：/
+
+Root directory：/
+
+## 缓存说明
+
+当前缓存 5 分钟：
+
+```text
+Cache-Control: public, max-age=300
 ```
 
-然后在 `configs` 里增加：
+如果以后配置稳定，可以改成：
 
-```js
-zuma
+```text
+Cache-Control: public, max-age=3600
 ```
