@@ -1,12 +1,13 @@
 {
   "message": "ok",
-  "ver": "1.0.10",
+  "ver": "1.0.9",
   "clickAdValue": "3",
   "arrowsAdValue": "10",
   "Adinterval": "15",
   "forcedAdlevel": "18",
   "adCount": "20",
+  "freeRewardLevelCount": "5",
   "freeHintLevelCount": "10",
   "freeReviveLevelCount": "10",
-  "encrypted": "5599fcac4d6a8cb17d9b512c4cfed672:EuCC/FaicC4mJUcJxOHNrSEo2IfK0B3beYXjQnTSfsoE6MG3ywkDhOUZX5OKsJbLn+k9stHTuqv1WaF1jK4PUUuegzZOwEJ9rMyaDkt+PTz/IT9TMGPFC2lfQDT/MeA2tZiKeo3BB5CnQh5Yway43/cqc3p2k2jMAVaXAG924MCNzSHaZFjkaOMBhmHeAPvtYMGP33KqIvyuXZsYt9wkIe95i/bvaymDcWd2GM6jvoYS/K/gGgM7BymTOlfb0j6BYOvD74Q9FfQcABzgXkqg10VuL0U0pOjOj+Xgjf5YHSEWRhUzzBCGMY+YioBNRUqVM1DLim9FFbFdfajC+jM1H4C1Ckn6AT31bIkuRACkPSN8k9wXuZ0Spn2+AFqYuZ7BPi/fFsNS3eJ8/+wbJgW/vwx6K4uwmR9yygJTxCddLxsMTLh8pr2zmFJNZ3g8Vcp7vl/vaB8Bsu7N3qB3wJtFIppBjvZXzFdo+nZvnaRRrc4/aMIt9B92kTJprF7fXkcrFfH7TzNbTIulGN1eLvjVQFMU2SS44LD+ATDN9HFDPxG7URLpLP7QJU6PpWWyvAwH28Y8sIHbA3ntcx9K/O0vsHc5/QngJMrQSqSejgEA0JChZIZwgAwPH+kWoQ21BpgvrTbHhS0F7fdWk5uLi2VGjIyN2NxnF2kS8efdgd5eCea+rN9mkbSjwp/an9EyUFuMZ5PP8pKkfsmSPWRhM/0Zrw+hcHZL/0tLjf2RcHXTrdQfkXeND+8mfHPvCPj9oifCJetr8Njvmphr1SW3iZNoANUPQKlXGi2wZcgOkH04G/942AKxKlB/EO7KayUsOiC3hJ/hJs0QTv3PIjGzReHOuFsJnJh0THXXDjaeS6seKVHz/5kNe0LsrR64P0Ntal4S"
+  "encrypted": "ffeea9371d4434ac47f12634d7bb3dbc:3ENrmiLhBrv+Sr0wf8q0qjMLAiTCBnIkkqSDq8A8KMrEJ9L4IeslrO8hlf9clHlt7js7q4A1imV7EnP+ZRz0crSKLdAPEGOmygt2C1+UxKQjiXtg87Un90czkyzDDQtY619HP84PNhcDnsuXBtspke95lI9d5gmFg5UzaTozqmnV+wlJyON/5pMHouYrWYoEbHwkiMReBdl3uy9UdafVqGjTNqJ4c8Ew6tTUJUG09ZF/IrglzhVp45CZpuz/gcie9ExchSYAwLvt89eNGaQgqYw6rvaZK/mVQflBM/KrHAe+lnI87gOQFJWEfD6KB0Wcfs20cvwHhsjy03alWWkb1PZP9PagpJtVZmDwvWqss/r3h746/77OX807G/2YOCh75r6SmIkldY6snkfU5OybXBf/KT2Lduno4oWQOCGdkzIBDN48b4BeVZbPzhN1WJxP3aWYErmfJLXDHlRszAsO7ag9qaI5FLfDFJGREJoCPKY7BOwCy1/IzzwnAVvIwlMlF9rSOkAJdR7TXqP1AKOYGmReeRU1quOke6J1SilUlJzkpqTl6HA2FHofyvp+rw5t+eZPacuiN5iLkXtZ4n1WxPPB/9k3908zcK4xdruQ4i36HCBifIfNSNlxXTqPgDoRDdBqjVVF05WD9YaSHBQRvo7hhWBSj69EePg7OQf1VgCk1WDq+awsuSAcbDyT8dRTEe4cs3pm/+Y/0u2Cn70mRFjeBldlNLpi9XEYDEIkJo6wmcxGxPA/n/tXizcDb6q8aSwG1/XIJeHaJ1ZltpPgkeIvw4mfMDIy7UGE0fDHTuM8jdu2XJ8ygV7uzMlXvHj87EwsBnjeH4ulHk7hF+w0LJWH+zuVzjyqSYGvQWQbRGhYXlzK4BYjFSoayoGcJg1PMyKTEU2JLvGlEhCAiMuPqA=="
 }
