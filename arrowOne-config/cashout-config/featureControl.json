@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 3,
+  "configVersion": 9,
+  "updatedAt": "2026-08-06T05:38:31.000Z",
+  "features": {
+    "gameplay.dynamicLevels": {
+      "enabled": true,
+      "activation": "next_session",
+      "variant": "competitor_v1"
+    },
+    "gameplay.autoHint": {
+      "enabled": true,
+      "activation": "next_level",
+      "params": {
+        "delaySeconds": 10
+      }
+    },
+    "gameplay.manualHintButton": {
+      "enabled": true,
+      "activation": "next_level"
+    },
+    "gameplay.longLine": {
+      "enabled": true,
+      "activation": "next_level"
+    },
+    "gameplay.successGreen": {
+      "enabled": true,
+      "activation": "next_level"
+    },
+    "gameplay.snakeSkin": {
+      "enabled": false,
+      "activation": "next_level",
+      "rolloutPercent": 0,
+      "variant": "snake_v1"
+    },
+    "ui.cashoutPopTip": {
+      "enabled": true,
+      "activation": "immediate"
+    },
+    "ui.wheel": {
+      "enabled": true,
+      "activation": "immediate",
+      "params": {
+        "fallbackChip": 17.5
+      }
+    },
+    "ui.sevenDaySignIn": {
+      "enabled": false,
+      "activation": "next_session",
+      "rolloutPercent": 0,
+      "variant": "seven_day_v1"
+    },
+    "ads.banner": {
+      "enabled": false,
+      "activation": "next_level"
+    },
+    "ads.forcedReward": {
+      "enabled": true,
+      "activation": "next_level",
+      "params": {
+        "startRealLevel": 4
+      }
+    },
+    "ads.adaptiveStrategy": {
+      "enabled": true,
+      "activation": "next_level",
+      "rolloutPercent": 100,
+      "variant": "adaptive_willingness_v1",
+      "params": {
+        "highForceThreshold": 2,
+        "highArrowThreshold": 8,
+        "highAdInterval": 20,
+        "mediumForceThreshold": 3,
+        "mediumArrowThreshold": 11,
+        "mediumAdInterval": 30,
+        "lowForceThreshold": 3,
+        "lowArrowThreshold": 14,
+        "lowAdInterval": 30,
+        "unknownForceThreshold": 3,
+        "unknownArrowThreshold": 14,
+        "unknownAdInterval": 30
+      }
+    },
+    "performance.runtimeThrottle": {
+      "enabled": true,
+      "activation": "next_session",
+      "params": {
+        "androidFrameRate": 29,
+        "hintTickSeconds": 0.1,
+        "rewardPopupTickSeconds": 0.2
+      }
+    }
+  },
+  "featureGroups": {
+    "gameplay.assistance": {
+      "enabled": true,
+      "activation": "next_level",
+      "rolloutPercent": 100,
+      "mode": "fixed",
+      "fixedVariant": "auto_hint",
+      "variants": [
+        {
+          "id": "auto_hint",
+          "featureId": "gameplay.autoHint",
+          "weight": 50
+        },
+        {
+          "id": "manual_hint",
+          "featureId": "gameplay.manualHintButton",
+          "weight": 50
+        }
+      ]
+    }
+  }
+}
