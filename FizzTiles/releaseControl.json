@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "gameId": "com.fizz.match.puzzle",
+  "enabled": true,
+  "maxAppVersion": "1.0.1",
+  "defaultCountryCode": "US",
+  "countryRoutes": {
+    "AL": "AL",
+    "AM": "AM",
+    "AO": "AO",
+    "AR": "AR",
+    "AT": "AT",
+    "AU": "AU",
+    "AZ": "AZ",
+    "BA": "BA",
+    "BB": "BB",
+    "BD": "BD",
+    "BE": "BE",
+    "BF": "BF",
+    "BG": "BG",
+    "BI": "BI",
+    "BJ": "BJ",
+    "BN": "BN",
+    "BO": "BO",
+    "BR": "BR",
+    "BS": "BS",
+    "BW": "BW",
+    "BZ": "BZ",
+    "CA": "CA",
+    "CD": "CD",
+    "CG": "CG",
+    "CH": "CH",
+    "CI": "CI",
+    "CL": "CL",
+    "CM": "CM",
+    "CO": "CO",
+    "CR": "CR",
+    "CV": "CV",
+    "CY": "CY",
+    "CZ": "CZ",
+    "DE": "DE",
+    "DJ": "DJ",
+    "DK": "DK",
+    "DO": "DO",
+    "EC": "EC",
+    "EE": "EE",
+    "ES": "ES",
+    "ET": "ET",
+    "FI": "FI",
+    "FJ": "FJ",
+    "FM": "FM",
+    "FR": "FR",
+    "GA": "GA",
+    "GB": "GB",
+    "GD": "GD",
+    "GE": "GE",
+    "GH": "GH",
+    "GM": "GM",
+    "GN": "GN",
+    "GQ": "GQ",
+    "GR": "GR",
+    "GT": "GT",
+    "GW": "GW",
+    "GY": "GY",
+    "HK": "HK",
+    "HN": "HN",
+    "HR": "HR",
+    "HT": "HT",
+    "HU": "HU",
+    "ID": "ID",
+    "IE": "IE",
+    "IL": "IL",
+    "IN": "IN",
+    "IS": "IS",
+    "IT": "IT",
+    "JM": "JM",
+    "JP": "JP",
+    "KE": "KE",
+    "KG": "KG",
+    "KH": "KH",
+    "KI": "KI",
+    "KR": "KR",
+    "KZ": "KZ",
+    "LA": "LA",
+    "LC": "LC",
+    "LK": "LK",
+    "LR": "LR",
+    "LS": "LS",
+    "LT": "LT",
+    "LU": "LU",
+    "LV": "LV",
+    "MD": "MD",
+    "ME": "ME",
+    "MG": "MG",
+    "MK": "MK",
+    "ML": "ML",
+    "MN": "MN",
+    "MO": "MO",
+    "MT": "MT",
+    "MU": "MU",
+    "MW": "MW",
+    "MX": "MX",
+    "MY": "MY",
+    "MZ": "MZ",
+    "NA": "NA",
+    "NE": "NE",
+    "NG": "NG",
+    "NI": "NI",
+    "NL": "NL",
+    "NO": "NO",
+    "NP": "NP",
+    "NZ": "NZ",
+    "PA": "PA",
+    "PE": "PE",
+    "PG": "PG",
+    "PH": "PH",
+    "PL": "PL",
+    "PT": "PT",
+    "PY": "PY",
+    "RO": "RO",
+    "RS": "RS",
+    "RU": "RU",
+    "RW": "RW",
+    "SB": "SB",
+    "SC": "SC",
+    "SE": "SE",
+    "SG": "SG",
+    "SI": "SI",
+    "SK": "SK",
+    "SL": "SL",
+    "SN": "SN",
+    "SR": "SR",
+    "ST": "ST",
+    "SV": "SV",
+    "SZ": "SZ",
+    "TD": "TD",
+    "TG": "TG",
+    "TH": "TH",
+    "TJ": "TJ",
+    "TL": "TL",
+    "TR": "TR",
+    "TT": "TT",
+    "TW": "TW",
+    "TZ": "TZ",
+    "UA": "UA",
+    "UG": "UG",
+    "US": "US",
+    "UY": "UY",
+    "UZ": "UZ",
+    "VE": "VE",
+    "VN": "VN",
+    "VU": "VU",
+    "XK": "XK",
+    "ZA": "ZA",
+    "ZM": "ZM",
+    "ZW": "ZW",
+    "SA": "US"
+  },
+  "countryConfigs": {
+    "AL": {
+      "path": "cashout-config/al.json",
+      "version": "sha256:eab393b625974c37b495b87aa3d8dd2834db864098065083d527f57a54d3b020"
+    },
+    "AM": {
+      "path": "cashout-config/am.json",
+      "version": "sha256:681fe373ca817e6e41d49e5be7cb118d92646831c7bbdc3fb650533c890ceacf"
+    },
+    "AO": {
+      "path": "cashout-config/ao.json",
+      "version": "sha256:a655a0347e7630f0820821493a6c6524f7e802812240a974404fbd7d85efa5e7"
+    },
+    "AR": {
+      "path": "cashout-config/ar.json",
+      "version": "sha256:cbacb8da87e7e2c9bbc141c9b22239ae1952fc3d41005d0f321c74833ff0d8ef"
+    },
+    "AT": {
+      "path": "cashout-config/at.json",
+      "version": "sha256:22f343185dc3682a711b1f96fc4c1f8bb51451792de0ed8f101cc472f71021e5"
+    },
+    "AU": {
+      "path": "cashout-config/au.json",
+      "version": "sha256:e7d4d27ce2552a49cb8177f622a12ab5fd5d7b6c1e118a1c82799cb151ef5bb6"
+    },
+    "AZ": {
+      "path": "cashout-config/az.json",
+      "version": "sha256:9aa2ef94550a58e3ef959e5eb5b9e91428aaa44f91a88992547464aaec672080"
+    },
+    "BA": {
+      "path": "cashout-config/ba.json",
+      "version": "sha256:89faadf7aeed5c19a990f0106d77a43591b99a0424c2acccf0db1886d4bc9706"
+    },
+    "BB": {
+      "path": "cashout-config/bb.json",
+      "version": "sha256:4bfe34c8e8dba80b67fefb03a5e7c13f7de6bf6893578d183561127fbd82b2d6"
+    },
+    "BD": {
+      "path": "cashout-config/bd.json",
+      "version": "sha256:b6127aba0c7af6e8517fd1197c9ecb87a90c8d1adf135b3c7f84ff883227fb8a"
+    },
+    "BE": {
+      "path": "cashout-config/be.json",
+      "version": "sha256:c173ac7f3b42d1dca0c1a5a0f59f1c3b552441832b2ee82f8a71b6e5b7a91ced"
+    },
+    "BF": {
+      "path": "cashout-config/bf.json",
+      "version": "sha256:1be1a82c5d9477036747c2cde942d2445283f4a80813ea9f55a74499b2f582eb"
+    },
+    "BG": {
+      "path": "cashout-config/bg.json",
+      "version": "sha256:3ccb54217ea84bbee972ceb8304edcab4f646bb87d309a2e6a1dfb8a77d0f2e8"
+    },
+    "BI": {
+      "path": "cashout-config/bi.json",
+      "version": "sha256:5ced94254bcc497fab8206390485071807f1429581b109af6c5f4f51e9ac1cf8"
+    },
+    "BJ": {
+      "path": "cashout-config/bj.json",
+      "version": "sha256:d6af707e9d8ad6ffcb27344ed19e24e1ba34e5f253d81836ab4ba6ef3ad580dd"
+    },
+    "BN": {
+      "path": "cashout-config/bn.json",
+      "version": "sha256:ccf0b2757de77747845331ff8ccdd40e193a2bbc0bd0a846155e134f736c6d41"
+    },
+    "BO": {
+      "path": "cashout-config/bo.json",
+      "version": "sha256:b1ee6211e8b8de89a129db10d06cbfbd4278b54fb17138055396bec8d00bb1db"
+    },
+    "BR": {
+      "path": "cashout-config/br.json",
+      "version": "sha256:fab90a4865d685bcb0be2cb17600576d70a4ccb9699aa9c85ea21e71ea51aa9a"
+    },
+    "BS": {
+      "path": "cashout-config/bs.json",
+      "version": "sha256:90e1e51a11f9bf506537425710d2f763bb99320de68eab75027aca05ff042e3f"
+    },
+    "BW": {
+      "path": "cashout-config/bw.json",
+      "version": "sha256:98522b5971e8c6f374df629fe9a8a9d84d3e8f7a05547752996c1c70517ae17d"
+    },
+    "BZ": {
+      "path": "cashout-config/bz.json",
+      "version": "sha256:a78b23d1497865b9cfbcb8175b5e2a8a1d6ee35b2c04bf77b4902f8e8df67e89"
+    },
+    "CA": {
+      "path": "cashout-config/ca.json",
+      "version": "sha256:0e4f2a110be55ce696d4dc8f193ae0e4ef4db9fc16994708d597d40cee038ff7"
+    },
+    "CD": {
+      "path": "cashout-config/cd.json",
+      "version": "sha256:97c7a3f1c756454c9bf9ff478fa0675c845b781eeb1e903a2940edabd9c1ff7d"
+    },
+    "CG": {
+      "path": "cashout-config/cg.json",
+      "version": "sha256:f621807a35e724d10aa80cb47abb17a5487db681254fd2d8c5b563eda282213a"
+    },
+    "CH": {
+      "path": "cashout-config/ch.json",
+      "version": "sha256:dd104743659b3b8bed5c40959d65ca289daf42ed3b11483629596748fc73d79d"
+    },
+    "CI": {
+      "path": "cashout-config/ci.json",
+      "version": "sha256:d45e92a543cccb65804515132c2d12df4371f066dd21a1227dd13d697bb5cac4"
+    },
+    "CL": {
+      "path": "cashout-config/cl.json",
+      "version": "sha256:2287598cfdc47d9e9e095eaab0e3d337f0cfaf30b89e84c269b95292eb4c0fc4"
+    },
+    "CM": {
+      "path": "cashout-config/cm.json",
+      "version": "sha256:d605503878e1b56bad652ec9c045ade3a1d89fd26140ada4056e654601b1936d"
+    },
+    "CO": {
+      "path": "cashout-config/co.json",
+      "version": "sha256:d526e2ad2cbaf6c7e2b9d02b49637fd50e6d09731676e8d95e357eabc5ce8896"
+    },
+    "CR": {
+      "path": "cashout-config/cr.json",
+      "version": "sha256:9fe9a2a200cdd94149818cfa02798ef39296d2c3e678705550ac3357b3afd6e6"
+    },
+    "CV": {
+      "path": "cashout-config/cv.json",
+      "version": "sha256:c9ea82f0da3146164daa36c8c255d823c5376e89fd7019bc3da589bd155a1bcf"
+    },
+    "CY": {
+      "path": "cashout-config/cy.json",
+      "version": "sha256:3df3be34f9593969b85f56c87d11e00d5a01291cfab2090f72552d88d48712f5"
+    },
+    "CZ": {
+      "path": "cashout-config/cz.json",
+      "version": "sha256:913f7cccd01bf2802401ba0a293b7f4b530bbd215590c687e227a8115f9f6776"
+    },
+    "DE": {
+      "path": "cashout-config/de.json",
+      "version": "sha256:8d37b4c408aba9857bc5b07bf76809422bee6c87fa10d49835a3b71c8d44a9fc"
+    },
+    "DJ": {
+      "path": "cashout-config/dj.json",
+      "version": "sha256:be5e698e5968d63b3eb80ecf686960d02b27a86ff41101b5fbe53a9dec19e14d"
+    },
+    "DK": {
+      "path": "cashout-config/dk.json",
+      "version": "sha256:ac6310f1d4981839e5095da123f6306eeeda9891f6b5fb5e5db8beab2e4dd4d1"
+    },
+    "DO": {
+      "path": "cashout-config/do.json",
+      "version": "sha256:a5a94044532c61bf5cfb0a3159bbd073541fde499924a61bc9fd9c0e6266dab0"
+    },
+    "EC": {
+      "path": "cashout-config/ec.json",
+      "version": "sha256:ef893d520bb3e8938248f73f7066b380c49b0c58afcd9faa692768c00333fa5e"
+    },
+    "EE": {
+      "path": "cashout-config/ee.json",
+      "version": "sha256:08e7a5158163c892263d4ebe4f947e620ef8e9108f0533adf8458f8107a07e25"
+    },
+    "ES": {
+      "path": "cashout-config/es.json",
+      "version": "sha256:9ad66cbfe1d9f870998dd9a226dd9670c868d2509526f030416499a82ba0291c"
+    },
+    "ET": {
+      "path": "cashout-config/et.json",
+      "version": "sha256:d0fa4f0ce83e83f5738166630c6e5e64b1b8bc51ce8f750104d1c604b7f81d21"
+    },
+    "FI": {
+      "path": "cashout-config/fi.json",
+      "version": "sha256:4b780f76815fec054f00a007c03c9d7fb0420df3e92e60efa44ef6d1eb474205"
+    },
+    "FJ": {
+      "path": "cashout-config/fj.json",
+      "version": "sha256:ee56ad16796fc3e4d1bfc14e1ff1d22dc71574a8992aa0fd210b9094e0ba2093"
+    },
+    "FM": {
+      "path": "cashout-config/fm.json",
+      "version": "sha256:13c37791d87f73d7196c09ad8c19b3b48390fb5fa128d7e36b147d61e0d2abdb"
+    },
+    "FR": {
+      "path": "cashout-config/fr.json",
+      "version": "sha256:f4dfc2dabe83279d6c2a4d0d28a91bd804e5f9bf00040ca64496111c372c579b"
+    },
+    "GA": {
+      "path": "cashout-config/ga.json",
+      "version": "sha256:69e3b04f348a5f18736e5f049a8f37f28d5266225ce2036b588de3a6cf691b45"
+    },
+    "GB": {
+      "path": "cashout-config/gb.json",
+      "version": "sha256:36e8e5741da41dc0afa4220bd9a7e0b8d520171a246be337b249f51d7e0e7575"
+    },
+    "GD": {
+      "path": "cashout-config/gd.json",
+      "version": "sha256:3afe23853798edae541a20de0c1cf7d44405099c0b160385760d864fe5e2ba70"
+    },
+    "GE": {
+      "path": "cashout-config/ge.json",
+      "version": "sha256:5245d49357a648d0d66817c31617b7b3fcd23bfec70d20d69b0441f2cb04b1f9"
+    },
+    "GH": {
+      "path": "cashout-config/gh.json",
+      "version": "sha256:42677893f0d78fdea7ee9b57270682fe2c3fc8579c504530e389138a110a966c"
+    },
+    "GM": {
+      "path": "cashout-config/gm.json",
+      "version": "sha256:d9ccdd405f573dda6073b373e13b8a6c3600495e4751a52e4962dee824f4b2de"
+    },
+    "GN": {
+      "path": "cashout-config/gn.json",
+      "version": "sha256:dbadf6fdc8271ef696efca11b7f8a1e5a6aaab7677691bebe30a1aa7377c24a0"
+    },
+    "GQ": {
+      "path": "cashout-config/gq.json",
+      "version": "sha256:1d91f4f7538a9a1084903cdaf0e0437a1c81b6ce5e859fad4949c8bed7318e1b"
+    },
+    "GR": {
+      "path": "cashout-config/gr.json",
+      "version": "sha256:ae298b6182b78ddd8712418f75b5dd596ca86ed50510208f71429cfd8e10d388"
+    },
+    "GT": {
+      "path": "cashout-config/gt.json",
+      "version": "sha256:e3575aaf28f00879653da9844a70640fcd5e4aedefd96e7179f362c10ab62902"
+    },
+    "GW": {
+      "path": "cashout-config/gw.json",
+      "version": "sha256:0c28a9ff05a0ac860e2d7ded262d312fe185d83c993f141353ca80af4eb9214f"
+    },
+    "GY": {
+      "path": "cashout-config/gy.json",
+      "version": "sha256:d006e72e8c7e0a87431ee14fc82887580abc12da25d82f4394002e5597ebf142"
+    },
+    "HK": {
+      "path": "cashout-config/hk.json",
+      "version": "sha256:166e6d9465ab4839f59e523e084879599aeff8168a8775946c3ed71a9e295fee"
+    },
+    "HN": {
+      "path": "cashout-config/hn.json",
+      "version": "sha256:5ba7e30223f4e5552437656e85ee57c329dc6bb7ebdfe1666f6db4c44b236736"
+    },
+    "HR": {
+      "path": "cashout-config/hr.json",
+      "version": "sha256:4d9ecf9f83f54c7844e6cfad505382c676015c4271f9e5bfd4132b0d716424e3"
+    },
+    "HT": {
+      "path": "cashout-config/ht.json",
+      "version": "sha256:1b0dd7a7798c707647591f10b3d98b6278807b35a7192f68d6985a906d4a2583"
+    },
+    "HU": {
+      "path": "cashout-config/hu.json",
+      "version": "sha256:5eb7540e9d79e9d7fbfae6104fa141ba5e083d54198734b37a3799c31f301ef7"
+    },
+    "ID": {
+      "path": "cashout-config/id.json",
+      "version": "sha256:f1024da6782de01babde5b8d2cdb1f409b2fc959e2f1881ed44bac3ee6879f1f"
+    },
+    "IE": {
+      "path": "cashout-config/ie.json",
+      "version": "sha256:0bcd2172613f11e66fa04b41dc102af338ebb438110f278e6c6f7319a8fad69b"
+    },
+    "IL": {
+      "path": "cashout-config/il.json",
+      "version": "sha256:43e79f01c4fcc8e1f9772110c52e6589dd6aa64b0bc8477df645eae5a420dce0"
+    },
+    "IN": {
+      "path": "cashout-config/in.json",
+      "version": "sha256:9412901619d2fbb9490204c22d235f67e3dc3bc2f9ca7308d8a74eae9b13ba96"
+    },
+    "IS": {
+      "path": "cashout-config/is.json",
+      "version": "sha256:e13d56358d394ecf32a397747bcf712fb1e5f35e182fef3cd0d5f907264e8e2b"
+    },
+    "IT": {
+      "path": "cashout-config/it.json",
+      "version": "sha256:6b73b1869a27369cb712cbe38cd5cccde0450a23c23414458190368c2015b054"
+    },
+    "JM": {
+      "path": "cashout-config/jm.json",
+      "version": "sha256:ba134e0ec17b9b86b48d6d895791808e8f5677aa2180e3bb260e04fd454ce60b"
+    },
+    "JP": {
+      "path": "cashout-config/jp.json",
+      "version": "sha256:e3caff976605af276d10812fa146536bd4dfc15950d85d8a3e0866f3d6b066f9"
+    },
+    "KE": {
+      "path": "cashout-config/ke.json",
+      "version": "sha256:0f7e77d625aeaa73d29f5d553f11cd084d933126a8549cd351c676833b20ba77"
+    },
+    "KG": {
+      "path": "cashout-config/kg.json",
+      "version": "sha256:f28f12b2040b4a77a02b726b49c7f3f9844367f1c3deea4fe8df0bdfa83f1ea4"
+    },
+    "KH": {
+      "path": "cashout-config/kh.json",
+      "version": "sha256:7e1c253500f17c88c8a4fa913b4e143a6b73136a32f40a3df6ae93f522f08040"
+    },
+    "KI": {
+      "path": "cashout-config/ki.json",
+      "version": "sha256:b66b64af6fb3ff3bff3fd42c249f69fc9a7f78d68ef6330bde0934e434cbc50a"
+    },
+    "KR": {
+      "path": "cashout-config/kr.json",
+      "version": "sha256:e5e6a905680f298bf805b80816875e69a05040347afe8b70838bc22fbedf610e"
+    },
+    "KZ": {
+      "path": "cashout-config/kz.json",
+      "version": "sha256:170266ab9828a5ddc5dcb94adff58e60cedad27940cbab4a52d78132e86e3cbd"
+    },
+    "LA": {
+      "path": "cashout-config/la.json",
+      "version": "sha256:16623e0313361a0ab05ab85b55f5a76c01b9faf1fa7d4c2f55974c81fb372f41"
+    },
+    "LC": {
+      "path": "cashout-config/lc.json",
+      "version": "sha256:8c227d256b0e29b8106a235fbeff365470d4969005abd0b836f08bdee8d8e1bc"
+    },
+    "LK": {
+      "path": "cashout-config/lk.json",
+      "version": "sha256:14cead3d8c12021d2565289a6a74e457d8ea236f787ba27177d7400141a3ec35"
+    },
+    "LR": {
+      "path": "cashout-config/lr.json",
+      "version": "sha256:4665277d7213d8fffd893148975cba89de3e0e0a43e8f660efb1a543505d1d77"
+    },
+    "LS": {
+      "path": "cashout-config/ls.json",
+      "version": "sha256:707efef429fadca1150c439b6019fdef318d8da4d5a8e0c2ca01b15b1237730d"
+    },
+    "LT": {
+      "path": "cashout-config/lt.json",
+      "version": "sha256:422181f378d4ef478408ff0e5e38bae4295956d9dd393b8bb0289fff9bd1fd3d"
+    },
+    "LU": {
+      "path": "cashout-config/lu.json",
+      "version": "sha256:d2376d6a52c3a288fd65bc5a4d5c68c0af907c51e7f15e8805e266b8f4440269"
+    },
+    "LV": {
+      "path": "cashout-config/lv.json",
+      "version": "sha256:6ab99ae3fa5e4f3098d7028561c2f73699d5ae8301a3f98ff73f1fa34392c164"
+    },
+    "MD": {
+      "path": "cashout-config/md.json",
+      "version": "sha256:d6b26d65b747c037f9677eb6a2897ad2fdf92bd7bee36ee1c1192203f06c99e2"
+    },
+    "ME": {
+      "path": "cashout-config/me.json",
+      "version": "sha256:ae716569696bc2ecc90301c0ffc3ee67a60fc970c6eae7014cb4a9a700b1a31f"
+    },
+    "MG": {
+      "path": "cashout-config/mg.json",
+      "version": "sha256:bf9097617b8cd37cc39a23fb860f570b668915df41ecc1703cfac4a3748051b8"
+    },
+    "MK": {
+      "path": "cashout-config/mk.json",
+      "version": "sha256:54a9f27e2473065a9587798fbbb430018cc67064edd1d230601afe142c0bc383"
+    },
+    "ML": {
+      "path": "cashout-config/ml.json",
+      "version": "sha256:b6e17ddb0f376274f567d78c414e7c2d6e36d02f38cfe9819c9b35ef399cf973"
+    },
+    "MN": {
+      "path": "cashout-config/mn.json",
+      "version": "sha256:cbb2e5563d37f52d67d629b8a1c75f6ced3a88067e37d7e905580a4b8fe3b882"
+    },
+    "MO": {
+      "path": "cashout-config/mo.json",
+      "version": "sha256:034e840d0335c299210fd147dd85da69c87805c2a7009983155a27487390ae26"
+    },
+    "MT": {
+      "path": "cashout-config/mt.json",
+      "version": "sha256:4954e068f4f3e7a8c66cf272319b0b9b3698b4e4786a34c138783f973a0fdc5c"
+    },
+    "MU": {
+      "path": "cashout-config/mu.json",
+      "version": "sha256:4a426bb3302deeaa2f7a155d1e0a40ccb87dab5df5eec660330ca3775bd5a5b4"
+    },
+    "MW": {
+      "path": "cashout-config/mw.json",
+      "version": "sha256:1cce00b24d75b1fe0594b2e2cbf529bd1a63182dd5a6b7d6b4d83e0e5e86d6a3"
+    },
+    "MX": {
+      "path": "cashout-config/mx.json",
+      "version": "sha256:58f077a9a08902b47f1648ef1c96d32ceb0a97d24dd8df6ed064e4148b984277"
+    },
+    "MY": {
+      "path": "cashout-config/my.json",
+      "version": "sha256:1f1c1d62e6f1b2a057551d8caa9d508cc2ac39f0a23d88e815f5d472bfc1808f"
+    },
+    "MZ": {
+      "path": "cashout-config/mz.json",
+      "version": "sha256:d164fabe8d305c93a44e722c05a8f6558f96b540ee8ac6ac0ea9de5f51ef115c"
+    },
+    "NA": {
+      "path": "cashout-config/na.json",
+      "version": "sha256:36262b648dd46ac11e4e1a9956ff4a9c5340b14db653e4cbb7f188f96373d1b2"
+    },
+    "NE": {
+      "path": "cashout-config/ne.json",
+      "version": "sha256:aab8ad17c99580dc297a8c6dec264393a114f356db9c0e2838dbaa983f2038fe"
+    },
+    "NG": {
+      "path": "cashout-config/ng.json",
+      "version": "sha256:dacebcdfffed7a3e4a1237bf52c18ca5bb3cb98c74a39d963a940821638e05e8"
+    },
+    "NI": {
+      "path": "cashout-config/ni.json",
+      "version": "sha256:debb24ce751fc932d3153b2e790d8031cc658ede39a1d66f2d5b2438908f938e"
+    },
+    "NL": {
+      "path": "cashout-config/nl.json",
+      "version": "sha256:775d8f9f79b0557beacfd39c47ef747227659a8678537aa6e9e1f5a215c66f1c"
+    },
+    "NO": {
+      "path": "cashout-config/no.json",
+      "version": "sha256:c8a0a4f96c9096f04e6c92d9a2d35f92110acd2647e6a1a145dc4a87b8632195"
+    },
+    "NP": {
+      "path": "cashout-config/np.json",
+      "version": "sha256:65f52cf04a3813c2c3003297f62d1fc17e2bdbac670c20fe2960b530f5602562"
+    },
+    "NZ": {
+      "path": "cashout-config/nz.json",
+      "version": "sha256:90e7822ec74cf4dda311124c3e7f21fd15c22016b68a49bdfa9ba3ef7795b800"
+    },
+    "PA": {
+      "path": "cashout-config/pa.json",
+      "version": "sha256:91a115dd8c4756bd8a1dca2e4ab1ec137e75b70ca0b28f5494217b462b7b5457"
+    },
+    "PE": {
+      "path": "cashout-config/pe.json",
+      "version": "sha256:5df2ab61b3892ac81924e9cdf010e1a017864fb77eaa0ce3ee4aead568e85bbd"
+    },
+    "PG": {
+      "path": "cashout-config/pg.json",
+      "version": "sha256:cdfa4ab877b5c14b37a02b63645ed631e3de5fb5638c2a90297ddee23f86d3be"
+    },
+    "PH": {
+      "path": "cashout-config/ph.json",
+      "version": "sha256:726f423ce36f79a043f5089a0a898509bd5e2702a6458dddaf6ce416be2ced73"
+    },
+    "PL": {
+      "path": "cashout-config/pl.json",
+      "version": "sha256:e35d74b212f69777a1eaa0381a94badce2450542c6fc6e80b49ea8716b4da1e4"
+    },
+    "PT": {
+      "path": "cashout-config/pt.json",
+      "version": "sha256:2e7456b2b355b0f235ea984dab02306f84ac3866cf628dbe5f6c7475d0061779"
+    },
+    "PY": {
+      "path": "cashout-config/py.json",
+      "version": "sha256:ced96ad30f9338235451dc8936c712915b098b3b8474f5ad06ace6ed85f125b3"
+    },
+    "RO": {
+      "path": "cashout-config/ro.json",
+      "version": "sha256:72d5c14e78d65e0069e174223bb9e09b465f37d763618faa60938cfb7f11d10c"
+    },
+    "RS": {
+      "path": "cashout-config/rs.json",
+      "version": "sha256:e9b8f0c1e6bdc0c438e89c8676f508dea3fb7d928bd70319ad4ce4b7f7f2f98f"
+    },
+    "RU": {
+      "path": "cashout-config/ru.json",
+      "version": "sha256:bdb9b061f8b162f00fa0888cb8481b7f14c53098bfa0397db6e37ccc77cc69ef"
+    },
+    "RW": {
+      "path": "cashout-config/rw.json",
+      "version": "sha256:4a758a4a46932500ba2b0bdd2999c4f27a98c1c776dc87a494daf4f7ccc6bd8e"
+    },
+    "SB": {
+      "path": "cashout-config/sb.json",
+      "version": "sha256:655f7e2c2d09adfbc19003e654a5ede38860af9aed83f112d212b429a3aac7a0"
+    },
+    "SC": {
+      "path": "cashout-config/sc.json",
+      "version": "sha256:b7001ebbe778a92c79fd428af2b6759dde888374ce75a4766e52d47c5e6a2a70"
+    },
+    "SE": {
+      "path": "cashout-config/se.json",
+      "version": "sha256:ac89f00fd07c5b3a8305c843eeca0e08be6edd928f132677b2d9ac772dafc5c4"
+    },
+    "SG": {
+      "path": "cashout-config/sg.json",
+      "version": "sha256:94a57b25c432e2b2370fcfa6367b87922f4d1c83bae38ad5c3615061148fce06"
+    },
+    "SI": {
+      "path": "cashout-config/si.json",
+      "version": "sha256:d58473b879a0639dbf9819acb37b9f5b638a2cf938b6b4de61658a2d48905c5b"
+    },
+    "SK": {
+      "path": "cashout-config/sk.json",
+      "version": "sha256:c29150fcd77028e20dc3b1828fa95564ef51cb0e1cb3e38d809b17d1a8a1db6c"
+    },
+    "SL": {
+      "path": "cashout-config/sl.json",
+      "version": "sha256:3ef73a50130c100d12b9b5207186744bb6d669356538d82041b8edf0c913656d"
+    },
+    "SN": {
+      "path": "cashout-config/sn.json",
+      "version": "sha256:e5370892eeafb41130e05b957de3a3ac7f1b278e9095fac899f80113147ebf64"
+    },
+    "SR": {
+      "path": "cashout-config/sr.json",
+      "version": "sha256:722ae87c3db742c4a007276a01ffc6da15a11ea30401279b1437e8081e01fd65"
+    },
+    "ST": {
+      "path": "cashout-config/st.json",
+      "version": "sha256:4aa88230f86e9c1a4ec29ea54951a923ac5f5e4a63c2b017ebc73e45c8fc3400"
+    },
+    "SV": {
+      "path": "cashout-config/sv.json",
+      "version": "sha256:105b4c27072bc5f980d1d480216f863ef2a17d1dd5a121d9b0b241d128888a2d"
+    },
+    "SZ": {
+      "path": "cashout-config/sz.json",
+      "version": "sha256:5807044a2e779b59720466c7a979f561096f0ca9a6304df24391d3935a087d0f"
+    },
+    "TD": {
+      "path": "cashout-config/td.json",
+      "version": "sha256:43b88e2b0874638a1345f34da693c4a3b34a17865bfb1115954a0d747d8ab374"
+    },
+    "TG": {
+      "path": "cashout-config/tg.json",
+      "version": "sha256:94c6e8da4431e3526d9f62eac61bec266ff5e238910bf391479b353410525a11"
+    },
+    "TH": {
+      "path": "cashout-config/th.json",
+      "version": "sha256:25982fdb13068744ad3838340566cf95e473966d5024b93e4887c8f557dcc0ea"
+    },
+    "TJ": {
+      "path": "cashout-config/tj.json",
+      "version": "sha256:f96370a8f6e08b2a5394f01ebedf11fe4092ccaaee6833b2b76c7742dd0da521"
+    },
+    "TL": {
+      "path": "cashout-config/tl.json",
+      "version": "sha256:a09613e4d98cdfec8486ddb11377066ec38e76148ab510d57b4e910d0d24bbf6"
+    },
+    "TR": {
+      "path": "cashout-config/tr.json",
+      "version": "sha256:d4f7e0fc75544546b29c0441286eee2e1584eadd4fbc38cb7a15eab90265bb8a"
+    },
+    "TT": {
+      "path": "cashout-config/tt.json",
+      "version": "sha256:6ea4c5754d5191caeed1951659585e7971fe9c3437c76419a7cf84e4960c8f87"
+    },
+    "TW": {
+      "path": "cashout-config/tw.json",
+      "version": "sha256:e6d118868fee443aaeecfe6a45ee107346561d0d81288969987e3cec26f167e8"
+    },
+    "TZ": {
+      "path": "cashout-config/tz.json",
+      "version": "sha256:5d2833810d4680e1bf997386c0e911404b3d48f108804d5c7e258a6932794b2f"
+    },
+    "UA": {
+      "path": "cashout-config/ua.json",
+      "version": "sha256:8e5e7240e25fd6a1b088bb1ac3b136db446aa52930189b3ee72f9f61c1250d82"
+    },
+    "UG": {
+      "path": "cashout-config/ug.json",
+      "version": "sha256:270cca01c448ad672353d839dcf59b55020a40588ae8ab668301ac8f848cd954"
+    },
+    "US": {
+      "path": "cashout-config/us.json",
+      "version": "sha256:8b9cfd98649a2f7184c8c0cc0f42407327abd650de834f2479f66e87435deb09"
+    },
+    "UY": {
+      "path": "cashout-config/uy.json",
+      "version": "sha256:26fa68457f6aae00dd8a647ef59c622ef08336eb8bce7231f5461f6f0056fa3d"
+    },
+    "UZ": {
+      "path": "cashout-config/uz.json",
+      "version": "sha256:b8fce05fa814ac9d39bec92342e0ab8db154f2e87fe08d5929146620e2d6359e"
+    },
+    "VE": {
+      "path": "cashout-config/ve.json",
+      "version": "sha256:c3dc7a8e01829b5b1d7a3c8c30d9c35ad597fb2487640b4ec3be41aa5844536a"
+    },
+    "VN": {
+      "path": "cashout-config/vn.json",
+      "version": "sha256:ac321082614d218a74ab3453f091d010612cb01466070935c5d774afae402845"
+    },
+    "VU": {
+      "path": "cashout-config/vu.json",
+      "version": "sha256:0c0392cb87a7a259d4811ba17ce3296c3efeb5c921d9619f7199a9d649ac9553"
+    },
+    "XK": {
+      "path": "cashout-config/xk.json",
+      "version": "sha256:f55c6c45d39b1384c9b8904cfb070cbb5af75af549c6d9ea8f45a5b751fce51d"
+    },
+    "ZA": {
+      "path": "cashout-config/za.json",
+      "version": "sha256:578a7e70a4b0e2a31073ddb0d233ba695e62068dab11b33934473689f29d906d"
+    },
+    "ZM": {
+      "path": "cashout-config/zm.json",
+      "version": "sha256:9c680a85269c60ae44443fd6ad74b32af83b23c0c671f4233dbdef8f0bd0572d"
+    },
+    "ZW": {
+      "path": "cashout-config/zw.json",
+      "version": "sha256:c2ee508613827d02fe1a43d0dffc44ed00928e2dd64207150d957c240395450f"
+    }
+  },
+  "configVersion": "sha256:b9821592ade9683872f2595443fd8d1208df24bf92e8278bb5d66d609ec5019d"
+}
